@@ -17,7 +17,13 @@ I personnaly use this plugin to help link Zetteltasken workflow, [Task](https://
 ## Screenshots
 
 ![screenshot-exemple.png](https://raw.githubusercontent.com/wombozo/tasks-annotate/master/assets/screenshot-exemple.png)
+
+***
+
 ![screenshot-options.png](https://raw.githubusercontent.com/wombozo/tasks-annotate/master/assets/screenshot-options.png)
+
+***
+
 ![screenshot-mainmenu.png](https://raw.githubusercontent.com/wombozo/tasks-annotate/master/assets/screenshot-mainmenu.png)
 
 ## Evolutions
