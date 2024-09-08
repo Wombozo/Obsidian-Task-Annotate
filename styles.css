@@ -1,8 +1,57 @@
-/*
+.task-annotate.modal-content {
+    display: flex;
+	flex-direction: column;
+    width: 100%;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.task-annotate .modal-header {
+	flex-grow: 0;
+	flex-shrink: 0;
+}
 
-If your plugin does not need CSS, delete this file.
+.task-annotate .modal-container {
+	width: auto;
+	flex: 1;
+	align-items: stretch;
+	position: relative;
+	justify-content: center;
+}
 
-*/
+.task-annotate .vertical-rule {
+	width: 1px;
+	background-color : var(--color-base-100);
+	margin: 0 20px;
+}
+
+.task-annotate .list-tags {
+    margin-top: 20px;
+}
+
+.task-annotate .list-tags li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.task-annotate .modal-header > h2 {
+	margin-top: 5px;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+.task-annotate .modal-footer {
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.task-annotate .modal-footer > button {
+	float: right;
+}
+
+.task-annotate-settings > * {
+    margin-bottom: 30px; /* Ajoutez de l'espace entre les éléments enfants */
+}
+
+.task-annotate-settings > h2 {
+    margin-bottom: 10px; /* Ajoutez de l'espace entre les éléments enfants */
+}
+
