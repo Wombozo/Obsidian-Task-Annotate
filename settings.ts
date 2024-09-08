@@ -92,7 +92,6 @@ export class SettingTab extends PluginSettingTab {
 					}
 					this.display();
 
-					console.log(fileTaskContainer.style.display);
 					await this.plugin.saveSettings();
 				})
 			);
